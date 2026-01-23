@@ -1,0 +1,345 @@
+{
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": -559.4017353130201,
+        "y": 255.27875958220872
+      },
+      "caption": "Robert De Niro",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#194d33"
+      }
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": -559.4017353130201,
+        "y": -71
+      },
+      "caption": "Christian Bale",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#194d33"
+      }
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": -228.43598153154574,
+        "y": -23.503563977878244
+      },
+      "caption": "A Origem ",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#0062b1"
+      }
+    },
+    {
+      "id": "n4",
+      "position": {
+        "x": -228.43598153154574,
+        "y": -192.31497401083024
+      },
+      "caption": "Batman: O Cavaleiro das Trevas",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#0062b1"
+      }
+    },
+    {
+      "id": "n5",
+      "position": {
+        "x": 102.5297722499287,
+        "y": -71
+      },
+      "caption": "Christopher Nolan",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#a4dd00"
+      }
+    },
+    {
+      "id": "n6",
+      "position": {
+        "x": -559.4017353130201,
+        "y": 99.78945151584338
+      },
+      "caption": "Leonardo DiCaprio",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#194d33"
+      }
+    },
+    {
+      "id": "n7",
+      "position": {
+        "x": -228.43598153154574,
+        "y": 99.78945151584338
+      },
+      "caption": "Os Infiltrados",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#0062b1"
+      }
+    },
+    {
+      "id": "n8",
+      "position": {
+        "x": 102.5297722499287,
+        "y": 255.2787595822088
+      },
+      "caption": "Martin Scorsese ",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#a4dd00"
+      }
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": -228.43598153154574,
+        "y": 255.2787595822088
+      },
+      "caption": "O Irlândes",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#0062b1"
+      }
+    },
+    {
+      "id": "n10",
+      "position": {
+        "x": -228.43598153154574,
+        "y": 385.16992136225224
+      },
+      "caption": "Cassino",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#0062b1"
+      }
+    },
+    {
+      "id": "n11",
+      "position": {
+        "x": -559.4017353130201,
+        "y": -192.31497401083024
+      },
+      "caption": "Heath Ledger",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#194d33"
+      }
+    },
+    {
+      "id": "n12",
+      "position": {
+        "x": -559.4017353130201,
+        "y": 385.16992136225224
+      },
+      "caption": "Joe Pesci",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "border-color": "#194d33"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n0",
+      "fromId": "n1",
+      "toId": "n4",
+      "type": "Atuou em",
+      "properties": {},
+      "style": {
+        "arrow-color": "#fe9200"
+      }
+    },
+    {
+      "id": "n1",
+      "fromId": "n4",
+      "toId": "n5",
+      "type": "Digirido por",
+      "properties": {},
+      "style": {
+        "arrow-color": "#fcdc00"
+      }
+    },
+    {
+      "id": "n3",
+      "fromId": "n2",
+      "toId": "n5",
+      "type": "Digirido por",
+      "properties": {},
+      "style": {
+        "arrow-color": "#fcdc00"
+      }
+    },
+    {
+      "id": "n4",
+      "fromId": "n6",
+      "toId": "n2",
+      "type": "Atuou em",
+      "properties": {},
+      "style": {
+        "arrow-color": "#fe9200"
+      }
+    },
+    {
+      "id": "n5",
+      "fromId": "n6",
+      "toId": "n7",
+      "type": "Atuou em",
+      "properties": {},
+      "style": {
+        "arrow-color": "#fe9200"
+      }
+    },
+    {
+      "id": "n6",
+      "fromId": "n7",
+      "toId": "n8",
+      "type": "Digirido por",
+      "properties": {},
+      "style": {
+        "arrow-color": "#fcdc00"
+      }
+    },
+    {
+      "id": "n7",
+      "fromId": "n9",
+      "toId": "n8",
+      "type": "Digirido por",
+      "properties": {},
+      "style": {
+        "arrow-color": "#fcdc00"
+      }
+    },
+    {
+      "id": "n8",
+      "fromId": "n10",
+      "toId": "n8",
+      "type": "Digirido por",
+      "properties": {},
+      "style": {
+        "arrow-color": "#fcdc00"
+      }
+    },
+    {
+      "id": "n9",
+      "fromId": "n0",
+      "toId": "n9",
+      "type": "Atuou em",
+      "properties": {},
+      "style": {
+        "arrow-color": "#fe9200"
+      }
+    },
+    {
+      "id": "n10",
+      "fromId": "n0",
+      "toId": "n10",
+      "type": "Atuou em",
+      "properties": {},
+      "style": {
+        "arrow-color": "#fe9200"
+      }
+    },
+    {
+      "id": "n11",
+      "fromId": "n11",
+      "toId": "n4",
+      "type": "Atuou em",
+      "properties": {},
+      "style": {
+        "arrow-color": "#fe9200"
+      }
+    },
+    {
+      "id": "n12",
+      "fromId": "n12",
+      "toId": "n10",
+      "type": "Atuou em",
+      "properties": {},
+      "style": {
+        "arrow-color": "#fe9200"
+      }
+    },
+    {
+      "id": "n13",
+      "fromId": "n12",
+      "toId": "n9",
+      "type": "Atuou em",
+      "properties": {},
+      "style": {
+        "arrow-color": "#fe9200"
+      }
+    }
+  ],
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  }
+}
