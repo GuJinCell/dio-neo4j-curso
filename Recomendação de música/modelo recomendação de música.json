@@ -1,0 +1,340 @@
+{
+  "style": {
+    "font-family": "Nunito Sans",
+    "background-color": "#F2F2F2",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#4C8EDA",
+    "border-width": 0,
+    "border-color": "#000000",
+    "radius": 75,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#ffffff",
+    "caption-font-size": 20,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "bare",
+    "label-color": "#ffffff",
+    "label-background-color": "#848484",
+    "label-border-color": "#848484",
+    "label-border-width": 3,
+    "label-font-size": 20,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "above",
+    "detail-orientation": "parallel",
+    "arrow-width": 3,
+    "arrow-color": "#848484",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#848484",
+    "type-background-color": "#F2F2F2",
+    "type-border-color": "#848484",
+    "type-border-width": 0,
+    "type-font-size": 21,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#848484",
+    "property-font-size": 20,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": -201,
+        "y": 15
+      },
+      "caption": "usuário",
+      "style": {},
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": 77,
+        "y": 15
+      },
+      "caption": "música",
+      "style": {
+        "node-color": "#a4dd00"
+      },
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": 190.8921730212329,
+        "y": -238.59923683738
+      },
+      "caption": "artista",
+      "style": {
+        "node-color": "#9f0500"
+      },
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n3",
+      "position": {
+        "x": 273.5756851698602,
+        "y": 211.57568516986015
+      },
+      "caption": "gênero",
+      "style": {
+        "node-color": "#fcdc00"
+      },
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n4",
+      "position": {
+        "x": 370.15275345394787,
+        "y": -38.84329083356455
+      },
+      "caption": "álbum",
+      "style": {
+        "node-color": "#aea1ff"
+      },
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n5",
+      "position": {
+        "x": -327.7620795268273,
+        "y": -204.5583622135513
+      },
+      "caption": "artista",
+      "style": {
+        "node-color": "#9f0500"
+      },
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "n6",
+      "position": {
+        "x": -559.144387865515,
+        "y": -402.47688229642546
+      },
+      "caption": "música",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "node-color": "#a4dd00"
+      }
+    },
+    {
+      "id": "n7",
+      "position": {
+        "x": -755.2039054042104,
+        "y": -169.517274667917
+      },
+      "caption": "gênero",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "node-color": "#fcdc00"
+      }
+    },
+    {
+      "id": "n8",
+      "position": {
+        "x": -432.28134396467533,
+        "y": -679.2715377653276
+      },
+      "caption": "álbum",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "node-color": "#aea1ff"
+      }
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": -393.94632110382327,
+        "y": 211.57568516986015
+      },
+      "caption": "gênero",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "node-color": "#fcdc00"
+      }
+    },
+    {
+      "id": "n10",
+      "position": {
+        "x": -663.5886218105228,
+        "y": 211.57568516986015
+      },
+      "caption": "música",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "node-color": "#a4dd00"
+      }
+    },
+    {
+      "id": "n11",
+      "position": {
+        "x": -966.6742988497797,
+        "y": 36.58908794372522
+      },
+      "caption": "artista",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "node-color": "#9f0500"
+      }
+    },
+    {
+      "id": "n12",
+      "position": {
+        "x": -869.267337834011,
+        "y": 494.7320070312228
+      },
+      "caption": "álbum",
+      "labels": [],
+      "properties": {},
+      "style": {
+        "node-color": "#aea1ff"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n0",
+      "type": "ouvir",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n1"
+    },
+    {
+      "id": "n1",
+      "type": "tipo",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n3"
+    },
+    {
+      "id": "n2",
+      "type": "criação",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n2"
+    },
+    {
+      "id": "n3",
+      "type": "relacionado",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n4"
+    },
+    {
+      "id": "n4",
+      "type": "segue",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n5"
+    },
+    {
+      "id": "n5",
+      "type": "criação",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n5",
+      "toId": "n6"
+    },
+    {
+      "id": "n6",
+      "type": "tipo",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n6",
+      "toId": "n7"
+    },
+    {
+      "id": "n7",
+      "type": "relacionado",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n6",
+      "toId": "n8"
+    },
+    {
+      "id": "n8",
+      "type": "gosta",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n9"
+    },
+    {
+      "id": "n9",
+      "type": "tipo",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n10",
+      "toId": "n9"
+    },
+    {
+      "id": "n10",
+      "type": "relacionamento",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n10",
+      "toId": "n12"
+    },
+    {
+      "id": "n11",
+      "type": "criação",
+      "style": {
+        "directionality": "undirected"
+      },
+      "properties": {},
+      "fromId": "n10",
+      "toId": "n11"
+    }
+  ]
+}

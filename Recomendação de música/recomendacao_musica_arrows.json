@@ -1,0 +1,79 @@
+{
+  "style": {},
+  "nodes": [
+    {
+      "id": "n0",
+      "position": { "x": -240, "y": 0 },
+      "caption": "Celso",
+      "style": {},
+      "labels": ["User"],
+      "properties": { "id": "user1", "name": "Celso" }
+    },
+    {
+      "id": "n1",
+      "position": { "x": 0, "y": 0 },
+      "caption": "Bohemian Rhapsody",
+      "style": {},
+      "labels": ["Song"],
+      "properties": { "id": "song1", "title": "Bohemian Rhapsody" }
+    },
+    {
+      "id": "n2",
+      "position": { "x": 240, "y": -120 },
+      "caption": "Queen",
+      "style": {},
+      "labels": ["Artist"],
+      "properties": { "id": "artist1", "name": "Queen" }
+    },
+    {
+      "id": "n3",
+      "position": { "x": 240, "y": 120 },
+      "caption": "Rock",
+      "style": {},
+      "labels": ["Genre"],
+      "properties": { "id": "genre1", "name": "Rock" }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "r0",
+      "type": "LISTENED",
+      "style": {},
+      "properties": { "times": 10, "last_date": "2026-02-03" },
+      "fromId": "n0",
+      "toId": "n1"
+    },
+    {
+      "id": "r1",
+      "type": "LIKED",
+      "style": {},
+      "properties": { "date": "2026-01-01" },
+      "fromId": "n0",
+      "toId": "n1"
+    },
+    {
+      "id": "r2",
+      "type": "FOLLOWS",
+      "style": {},
+      "properties": { "since": "2025-01-01" },
+      "fromId": "n0",
+      "toId": "n2"
+    },
+    {
+      "id": "r3",
+      "type": "BY",
+      "style": { "directionality": "undirected" },
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n2"
+    },
+    {
+      "id": "r4",
+      "type": "IN_GENRE",
+      "style": { "directionality": "undirected" },
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n3"
+    }
+  ]
+}

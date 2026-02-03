@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "labels": ["User"],
+      "properties": { "id": "user1", "name": "Celso" }
+    },
+    {
+      "labels": ["Song"],
+      "properties": { "id": "song1", "title": "Bohemian Rhapsody" }
+    },
+    {
+      "labels": ["Artist"],
+      "properties": { "id": "artist1", "name": "Queen" }
+    },
+    {
+      "labels": ["Genre"],
+      "properties": { "id": "genre1", "name": "Rock" }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "LISTENED",
+      "start": { "id": "user1", "labels": ["User"] },
+      "end": { "id": "song1", "labels": ["Song"] },
+      "properties": { "times": 10, "last_date": "2026-02-03" }
+    },
+    {
+      "type": "LIKED",
+      "start": { "id": "user1", "labels": ["User"] },
+      "end": { "id": "song1", "labels": ["Song"] },
+      "properties": { "date": "2026-01-01" }
+    },
+    {
+      "type": "FOLLOWS",
+      "start": { "id": "user1", "labels": ["User"] },
+      "end": { "id": "artist1", "labels": ["Artist"] },
+      "properties": { "since": "2025-01-01" }
+    },
+    {
+      "type": "BY",
+      "start": { "id": "song1", "labels": ["Song"] },
+      "end": { "id": "artist1", "labels": ["Artist"] },
+      "properties": {}
+    },
+    {
+      "type": "IN_GENRE",
+      "start": { "id": "song1", "labels": ["Song"] },
+      "end": { "id": "genre1", "labels": ["Genre"] },
+      "properties": {}
+    }
+  ]
+}
