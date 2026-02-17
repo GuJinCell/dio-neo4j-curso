@@ -7,13 +7,13 @@ desenvolvido como atividade do curso Neo4J - Análise de Dados com Grafos da pla
 - https://arrows.app
 
 ## Arquivos
-- `grafo-arrows.json`: modelo do grafo exportado do arrows.app
-- `grafo.png`: visualização estática do grafo
+- `Modelo de relação em filmes.json`: modelo do grafo exportado do arrows.app
+- `Modelo de relação em filmes.png`: visualização estática do grafo
 
 ## Como visualizar
 1. Acesse https://arrows.app
 2. Clique em "Import"
-3. Selecione o arquivo `grafo-arrows.json`
+3. Selecione o arquivo `Modelo de relação em filmes.json`
 
 ## Descrição do modelo
 - Nós representam filmes, atores e diretores
